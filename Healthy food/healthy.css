@@ -1,3 +1,19 @@
 .food{
     border: 1px solid rebeccapurple;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.food img{
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    
 }
