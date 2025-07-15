@@ -12,14 +12,14 @@ nav a{
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    border: 1px solid tomato;
+    /* border: 1px solid tomato; */
     height: 90vh;
     align-items: center;
 }
 .login-form{
     display: flex;
     flex-direction: column;
-    border: 3px solid blueviolet;
+    /* border: 3px solid blueviolet; */
     width: 50%;
 }
 
