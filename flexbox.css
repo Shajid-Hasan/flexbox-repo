@@ -1,0 +1,22 @@
+.container{
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+
+    
+}
+
+.box{
+    border: 1px dotted red;
+    height: 100px;
+    width: 110px;
+    font-size: 30px;
+    /* justify-content: center;
+    align-items: center; */
+    /* padding-inline-start: 35px;
+    padding-top: 48px; */
+    text-align: center;
+    
+}
