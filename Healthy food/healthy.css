@@ -36,3 +36,13 @@
         background-color: aquamarine;
     }
 }
+
+/* 7 main things to make Responsive */
+
+=> View port meta 
+=> CSS Relative Unit
+=> body max width and horozontal center align
+=> image fluid
+=> Two column flex and use media query with flex direction column
+=> Multi column : grid layout
+=> Menue Responsive : will need JavaScript
