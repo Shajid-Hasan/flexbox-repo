@@ -10,11 +10,36 @@
     border-radius: 5px;
     padding: 15px;
 }
-/* .box-2{
-    height: 180px;
-    width: 400px;
-    background-color: blueviolet;
-    border-radius: 5px;
-    padding: 15px;
 
-} */
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item{
+    height: 100px;
+    width: 200px;
+    border: 1px solid red;
+    margin-top: 30px;
+    
+
+}
+
+@media screen and (max-width : 576px) {
+        .container{
+            flex-direction: column;
+        }
+        .box{
+            background-color: brown;
+        }
+        
+        .item{
+            background-color: aqua;
+        }
+    }
+    
+    @media screen (min-width : 576px) and (max-width : ) {
+        
+    }
+    
